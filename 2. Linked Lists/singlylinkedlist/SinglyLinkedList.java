@@ -19,7 +19,8 @@ public class SinglyLinkedList {
         linkedList.addNodeAtEnd("E");
         linkedList.addNodeInBeginning("BEGIN");
         linkedList.addNodeAtIndex(0, "NEW HEAD");
-        linkedList.addNodeAtIndex(20, "C.1");
+        linkedList.addNodeAtIndex(5, "C.1");
+        // linkedList.addNodeAtIndex(20, "C.2"); // Throws error
         linkedList.printLinkedList();
     }
 

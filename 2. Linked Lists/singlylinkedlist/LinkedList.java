@@ -4,7 +4,7 @@ public class LinkedList<T> {
     private Node<T> headNode;
     
     public LinkedList(T headNodeValue) {
-        this.headNode = new Node<T>(null, null, headNodeValue);
+        this.headNode = new Node<T>(null, headNodeValue);
     }
 
     public Node<T> getHeadNode() {
@@ -32,12 +32,12 @@ public class LinkedList<T> {
         }
 
         // Current holds last element
-        Node<T> newNode = new Node<T>(current, null, value);
+        Node<T> newNode = new Node<T>(null, value);
         current.setNext(newNode);
     }
 
     public void addNodeInBeginning(T value) {
-         Node<T> newNode = new Node<T>(null, this.headNode, value);
+         Node<T> newNode = new Node<T>(this.headNode, value);
          this.headNode = newNode;
     }
 
@@ -60,7 +60,7 @@ public class LinkedList<T> {
         if ((i != index) && current == null) {
             throw new IndexOutOfBoundsException(String.format("Index: %s provided is more than length of linked list.", index));
         } else {
-            Node<T> newNode = new Node<T>(current, current.getNext(), value);
+            Node<T> newNode = new Node<T>(current.getNext(), value);
             current.setNext(newNode);
         }
     }

@@ -2,6 +2,10 @@
 
 ## List of data structures
 
-1. Arrays
-   1.1 Static Array
-   1.2 Dynamic Array
+1. Arrays  
+   1.1 Static Array  
+   1.2 Dynamic Array  
+2. Linked Lists  
+   2.1 Singly Linked List  
+   2.2 Doubly Linked List  
+   2.3 Circular Linked List  
