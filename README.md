@@ -9,3 +9,6 @@
    2.1 Singly Linked List  
    2.2 Doubly Linked List  
    2.3 Circular Linked List  
+3. Stack
+   3.1 Minimum Stack  
+   3.2 Maximum Stack  
